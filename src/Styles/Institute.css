@@ -1,0 +1,41 @@
+/* =============================================
+   Institute.css  –  CGS
+   Exact copy of akuastrono Institute.css
+   ============================================= */
+
+.Institute-tab {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+
+/* Row 1: carousel (left) + news box (right) */
+.Institute-tab-one {
+  display: flex;
+  gap: 15px;
+}
+
+/* Row 2: important-links box (right) + text description (left) */
+.Institute-tab-two {
+  display: flex;
+  gap: 15px;
+  flex-direction: row-reverse;
+  margin-top: 10px;
+}
+
+.Institute-tab-content {
+  width: 800px;
+  padding-right: 10px;
+}
+
+/* ── Responsive ────────────────────────────── */
+@media (max-width: 1226px) {
+  .Institute-tab-one {
+    flex-direction: column;
+  }
+  .Institute-tab-two {
+    flex-direction: column;
+  }
+  .Institute-tab-content {
+    width: 100%;
+  }
+}

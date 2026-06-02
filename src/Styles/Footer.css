@@ -1,0 +1,122 @@
+/* =============================================
+   Footer.css  –  CGS
+   Exact layout as akuastrono Footer.css
+   ============================================= */
+
+.Footer-par {
+  width: 100%;
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+/* Desktop */
+.Footer-first-section {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+
+.footer-logo-section {
+  display: flex;
+  padding-top: 10px;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-logo-section img {
+  width: 80px;
+  height: 60px;
+}
+
+.footer-logo-section h1 {
+  font-size: 20px;
+}
+
+.footer-contact-section h1 {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.Footer-Second-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.Footer-Program-section li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.Footer-Program-section h1 {
+  font-size: 25px;
+}
+
+.Footer-Social-section h1 {
+  font-size: 25px;
+}
+
+.Footer-Program-section li a {
+  text-decoration: none;
+  color: white;
+}
+
+.Footer-Social-section li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.Footer-Social-section li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .Footer-par {
+    flex-direction: column;
+    height: auto;
+  }
+  .Footer-first-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-logo-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-contact-section {
+    text-align: center;
+  }
+  .Footer-Second-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .Footer-par {
+    padding: 10px;
+  }
+  .Footer-first-section {
+    gap: 15px;
+  }
+  .footer-logo-section h1,
+  .footer-contact-section h1,
+  .Footer-Program-section h1,
+  .Footer-Social-section h1 {
+    font-size: 18px;
+  }
+  .Footer-Program-section li,
+  .Footer-Social-section li {
+    margin-bottom: 5px;
+  }
+}
