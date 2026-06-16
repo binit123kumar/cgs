@@ -38,20 +38,8 @@ const TabNavBar = () => {
       label: 'Academic Program',
       dropdownOptions: [
         {
-          label: 'M.A./M.Sc. in Geography',
+          label: 'M.A. in Geography',
           link: '/academic-program/ma-msc-geography',
-        },
-        {
-          label: 'M.Sc. in GIS & Remote Sensing',
-          link: '/academic-program/msc-gis-remote-sensing',
-        },
-        {
-          label: 'PG Diploma in GIS & Remote Sensing',
-          link: '/academic-program/pg-diploma-gis',
-        },
-        {
-          label: 'Certificate in GIS & Remote Sensing',
-          link: '/academic-program/certificate-gis',
         },
         {
           label: 'Ph.D. in Geography',
@@ -59,7 +47,7 @@ const TabNavBar = () => {
         },
         {
           label: 'CGS Prospectus (PDF)',
-          link: '/CGS_Prospectus.pdf',
+          link: '/assets/pdf/SGS Prospectus - 2026-28.pdf',
         },
       ],
     },

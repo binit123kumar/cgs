@@ -14,17 +14,29 @@
   gap: 15px;
 }
 
-/* Row 2: important-links box (right) + text description (left) */
+/* Row 2: text description + important-links box */
 .Institute-tab-two {
   display: flex;
   gap: 15px;
-  flex-direction: row-reverse;
-  margin-top: 10px;
+  /* अगर आप चाहते हैं कि टेक्स्ट बाईं तरफ (Left) और लिंक्स दाईं तरफ (Right) रहें, 
+     तो row-reverse को हटाकर सामान्य row रखना बेहतर है */
+  flex-direction: row; 
+  margin-top: 15px;
 }
 
 .Institute-tab-content {
   width: 800px;
   padding-right: 10px;
+}
+
+/* ── नए पैराग्राफ (<p>) टेक्स्ट का स्टाइल ── */
+.institute-text {
+  text-align: justify;
+  font-size: 1.15rem;      /* यह ठीक h3 जितना बड़ा दिखेगा */
+  font-weight: 600;        /* टेक्स्ट को साफ और बोल्ड दिखाएगा */
+  line-height: 1.6;        /* लाइनों के बीच सही गैप देगा */
+  color: #222222;          /* पढ़ने में आसान डार्क कलर */
+  margin-bottom: 1.2rem;   /* पैराग्राफ के बीच की दूरी */
 }
 
 /* ── Responsive ────────────────────────────── */
@@ -33,9 +45,10 @@
     flex-direction: column;
   }
   .Institute-tab-two {
-    flex-direction: column;
+    flex-direction: column; /* मोबाइल पर सब एक के नीचे एक आ जाएगा */
   }
   .Institute-tab-content {
     width: 100%;
+    padding-right: 0px;
   }
 }
