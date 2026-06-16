@@ -18,7 +18,7 @@ const BoxHeadingSecond = 'Important Links';
 const NewBadgeImage = 'https://akucgs.vercel.app/assets/new.gif';
 
 const NewsAndAnnouncement = [
-  { id: 0, NewsName: 'Admission 2024-25 – CGS Patna', href: 'https://adms.akubihar.ac.in/' },
+  { id: 0, NewsName: 'Admission 2026-28 – CGS Patna', href: 'https://adms.akubihar.ac.in/' },
   { id: 1, NewsName: 'CGS Prospectus 2026-28 (PDF)', href: ProspectusPDF },
   { id: 2, NewsName: 'Annual Report 2025-26 (PDF)', href: AnnualReport2023 },
   { id: 3, NewsName: 'Annual Report 2024-25 (PDF)', href: AnnualReport2022 },
