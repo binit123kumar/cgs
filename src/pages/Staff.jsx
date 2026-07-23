@@ -13,9 +13,9 @@ import {
 const facultyData = [
   {
     name: "Dr. Dayanand Kumar",
-    image: "https://akucgs.vercel.app/images/dayanand.jpg", // Replace with actual image
+    image: "../images/dayanand.png", // Replace with actual image
     designation: "Social Scientist, IERARD, Patna",
-    email: "dayanand@cgspatna.ac.in",
+    email: "dayanand@akubihar.ac.in",
 
     qualifications: [
       {
@@ -39,9 +39,9 @@ const facultyData = [
 
   {
     name: "Dr. Angad Yadav",
-    image: "https://akucgs.vercel.app/images/angad.jpg",
-    designation: "Faculty",
-    email: "angad@cgspatna.ac.in",
+    image: "../images/angad.png",
+    designation: "Assistant Faculty",
+    email: "angad@akubihar.ac.in",
 
     qualifications: [
       {
@@ -65,9 +65,9 @@ const facultyData = [
 
   {
     name: "Dr. Rabindra Paswan",
-    image: "https://akucgs.vercel.app/images/rabindra.jpg",
-    designation: "Faculty",
-    email: "rabindra@cgspatna.ac.in",
+    image: "../images/rabindra.png",
+    designation: "Assistant Faculty",
+    email: "rabindra@akubihar.ac.in",
 
     qualifications: [
       {
