@@ -16,6 +16,7 @@ import AimAndObjective from "./pages/AimAndObjective";
 import Event from "./pages/Event";
 import DirectorMessage from "./pages/DirectorMessage";
 import AcademicProgram from "./pages/AcademicProgram";
+import Staff from "./pages/Staff";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/events" element={<Event />} />
         <Route path="/director-message" element={<DirectorMessage />} />
         <Route path="/academic-program/:programId" element={<AcademicProgram />} />
+        <Route path="/staff" element={<Staff />} />
       </Routes>
 
       {/* Persistent scroll-to-top button */}

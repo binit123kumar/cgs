@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c20058b.css",
+    "main.js": "/static/js/main.0beb1e20.js",
+    "static/media/Ordinance - M.A. in Social Science.pdf": "/static/media/Ordinance - M.A. in Social Science.9e0f0a305d688d526a75.pdf",
+    "static/media/SGS Annual Report - 2024-25.pdf": "/static/media/SGS Annual Report - 2024-25.4f0548ec5fb188db8694.pdf",
+    "static/media/SGS Annual Report - 2025-26.pdf": "/static/media/SGS Annual Report - 2025-26.c3b18428a8d2284b938a.pdf",
+    "static/media/SGS Prospectus - 2026-28.pdf": "/static/media/SGS Prospectus - 2026-28.e856aea62dc9f5a4f3db.pdf",
+    "index.html": "/index.html",
+    "main.6c20058b.css.map": "/static/css/main.6c20058b.css.map",
+    "main.0beb1e20.js.map": "/static/js/main.0beb1e20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c20058b.css",
+    "static/js/main.0beb1e20.js"
+  ]
+}
