@@ -19,7 +19,7 @@ const facultyData = [
   {
     name: "Dr. Dayanand Kumar",
     image: dayanand,
-    designation: "Assistant Professor (Guest)",
+    designation: "Assistant Professor",
     email: "dayanandkumar73@gmail.com",
     phone: "+91 9386606720",
 
@@ -50,7 +50,7 @@ const facultyData = [
   {
     name: "Dr. Angad Yadav",
     image: angad,
-    designation: "Assistant Professor (Guest)",
+    designation: "Assistant Professor",
     email: "2angadyadav@gmail.com",
     phone: "+91 9386606720",
 
@@ -77,7 +77,7 @@ const facultyData = [
   {
     name: "Dr. Rabindra Paswan",
     image: rabindra,
-    designation: "Assistant Faculty",
+    designation: "Assistant Professor",
     email: "georabindrapaswanrgu@gmail.com",
     phone: "+91 9386313455",
 
@@ -105,7 +105,7 @@ const facultyData = [
 function Staff() {
   return (
     <section className="faculty-section">
-      <h2 className="section-title">Our Faculty Staff</h2>
+      <h2 className="section-title">Our Guest Faculty</h2>
 
       <div className="faculty-wrapper">
         {facultyData.map((member, index) => (
