@@ -1,6 +1,10 @@
 import React from "react";
 import "../Styles/Staff.css";
 
+import dayanand from "../images/dayanand.png";
+import angad from "../images/angad.png";
+import rabindra from "../images/rabindra.png";
+
 import {
   FaUserGraduate,
   FaUniversity,
@@ -8,14 +12,16 @@ import {
   FaMedal,
   FaBriefcase,
   FaEnvelope,
+  FaPhoneAlt,
 } from "react-icons/fa";
 
 const facultyData = [
   {
     name: "Dr. Dayanand Kumar",
-    image: "../images/dayanand.png", // Replace with actual image
-    designation: "Social Scientist, IERARD, Patna",
-    email: "dayanand@akubihar.ac.in",
+    image: dayanand,
+    designation: "Assistant Professor (Guest)",
+    email: "dayanandkumar73@gmail.com",
+    phone: "+91 9386606720",
 
     qualifications: [
       {
@@ -34,14 +40,19 @@ const facultyData = [
         icon: <FaMedal />,
         text: "Ph.D. Veer Kunwar Singh University, Ara",
       },
+      {
+        icon: <FaMedal />,
+        text: "Social Scientist in IERARD, Patna",
+      },
     ],
   },
 
   {
     name: "Dr. Angad Yadav",
-    image: "../images/angad.png",
-    designation: "Assistant Faculty",
-    email: "angad@akubihar.ac.in",
+    image: angad,
+    designation: "Assistant Professor (Guest)",
+    email: "2angadyadav@gmail.com",
+    phone: "+91 9386606720",
 
     qualifications: [
       {
@@ -65,9 +76,10 @@ const facultyData = [
 
   {
     name: "Dr. Rabindra Paswan",
-    image: "../images/rabindra.png",
+    image: rabindra,
     designation: "Assistant Faculty",
-    email: "rabindra@akubihar.ac.in",
+    email: "georabindrapaswanrgu@gmail.com",
+    phone: "+91 9386313455",
 
     qualifications: [
       {
@@ -126,9 +138,17 @@ function Staff() {
                   <tr>
                     <td>
                       <FaEnvelope className="icon" />
-
                       <a href={`mailto:${member.email}`}>
                         {member.email}
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <FaPhoneAlt className="icon" />
+                      <a href={`tel:${member.phone}`}>
+                        {member.phone}
                       </a>
                     </td>
                   </tr>
