@@ -52,7 +52,7 @@ const facultyData = [
     image: angad,
     designation: "Assistant Professor",
     email: "2angadyadav@gmail.com",
-    phone: "+91 9386606720",
+    phone: "+91 6201422691",
 
     qualifications: [
       {
